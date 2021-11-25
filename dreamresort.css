@@ -1,0 +1,220 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	height:100%;
+}
+
+body{
+	transition: 0.5s;
+	background: url(maldivv.jpg) no-repeat center top;
+	background-size: cover;
+}
+
+
+
+button{
+	font-size: 20px;
+	text-align: center;
+	height: 70px;
+	width: 500px;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	background: #003DA5;
+	color: whitesmoke;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 11px 47px 7px #003DA5; 
+	box-shadow: 0px 10px 13px -7px #000000, 1px 11px 47px 7px #003DA5;
+}
+
+.third{
+	text-align: right;
+	padding-right: 20px;
+
+}
+
+
+.para{
+	margin-top: 200px;
+	text-align: center;
+}
+.sema{
+	text-align: center;
+	padding-top: 10px;
+}
+.par, .sem{
+	opacity: 0;
+	transition: 0.5s;
+}
+.start{
+	bottom: 100px;
+	position: absolute;
+	margin-top:-300px;
+	opacity: 1;
+	transition: 0.5s;
+	right: 50px;
+}
+
+.ost, .civ{
+	transition: 0.5s;
+	margin: 20px auto;
+	opacity: 0;
+	display: none;
+
+}
+
+.rif, .bol{
+	transition: 0.5s;
+	margin: 20px auto;
+	opacity: 0;
+	display: none;
+}
+
+.bud1, .bud2, .bud3, .bud11, .bud22, .bud33 .bud111, .bud222, .bud333{
+	transition: 0.5s;
+	margin: 20px auto;
+	opacity: 0;
+	display: none;
+}
+
+.h2{
+	padding-top: 100px;
+	font-size:50px;
+	color: white;
+	transition: 0.5s;
+}
+
+.male, .gid{
+	transition: 0.5s;
+	margin: 0 auto;
+	opacity: 0;
+	display: none;
+}
+
+.gid{
+	margin-top: 10px;
+}
+
+.us{
+	margin-left: 500px;
+	opacity: none;
+	display: none;
+}
+
+.t{
+	color: white;
+	font-size: 50px;
+	text-align: right;
+	padding-right: 70px;
+	opacity: 0;
+	display: none;
+	transition: 0.5s;
+}
+
+.img{
+	width: 340px;
+
+}
+.mal{
+	padding: 20px;
+	text-align: right;
+}
+
+.container h2{
+	width: calc(100% - 350px);
+
+}
+
+.container h3{
+	display: none;
+}
+
+.link{
+	margin-top: 550px;
+	vertical-align: bottom;
+	display: inline-block;
+	display: none;
+	opacity: none;
+	right: 0;
+	bottom: 100px ;
+	float: right;
+	padding-top: 5px;
+	text-decoration: none;
+	font-size: 30px;
+	text-align: center;
+	height: 50px;
+	width: 300px;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	background: #003DA5;
+	color: whitesmoke;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 11px 47px 7px #003DA5; 
+	box-shadow: 0px 10px 13px -7px #000000, 1px 11px 47px 7px #003DA5;
+}
+
+.amilla{
+	display:block;
+	color: white;
+	font-size: 28px;
+	position: absolute;
+	right: 0;
+	display: none;
+	opacity: 0;
+}
+
+.text{
+	font-weight: bold;
+	font-size: 25px;
+	color:#003DA5;
+	display: none;
+}
+
+@media only screen and (max-width: 600px){
+	body{
+	    position: relative;
+		transition: 0.5s;
+		background: url(maldivia.jpg) no-repeat center top;
+		background-size: cover;
+	}
+
+	button{
+		font-size: 20px;
+		text-align: center;
+		height: 70px;
+		width: 300px;
+		border-radius: 20px;
+		outline: none;
+		border: none;
+		background: #003DA5;
+		color: whitesmoke;
+		-webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 11px 47px 7px #003DA5; 
+		box-shadow: 0px 10px 13px -7px #000000, 1px 11px 47px 7px #003DA5;
+	}
+	.container h2{
+		margin-top: -100px ;
+		font-size:25px ;
+		width: 60%;
+	}
+	.third{
+		padding-top:100px;
+	}
+
+	.start{
+		font-size: 15px;
+		margin-right:120px;
+		height:50px;
+		width: 200px;
+	} 
+	.us{
+		margin-left: 20px;
+	}
+	.link{
+		height: 50px;
+		width: 100px;
+		font-size: 15px;
+		margin-top: 300px;
+	}
+	
+	}
